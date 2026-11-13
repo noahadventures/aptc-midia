@@ -1,0 +1,16 @@
+name: fetch-audio
+on:
+  push:
+    paths: ['.github/workflows/fetch-audio.yml']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p pessoal/2026-11-13-dia
+          curl -fsSL -o pessoal/2026-11-13-dia/narracao.mp3 "https://elevenlabsusercontent.com/database/workspace/6f4b2048b2574d4d92df03a9272cd1fa/content_generation/nlPNaKyUGmRdC6xm0sIX/wrrhkfNZB8qPNThTk64R/content.mp3?Expires=1794610800&KeyName=assets-cdn-key-1&Signature=R2hIJ4FUyUNY6roKuqP0x5d6zQY="
+          git config user.name github-actions && git config user.email actions@github.com
+          git add pessoal && git commit -m "narracao 13/11" && git push
