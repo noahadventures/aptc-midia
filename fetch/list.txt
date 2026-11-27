@@ -1,1 +1,5 @@
-test.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_400/aptc/1126_capa_bg2.jpg
+s1.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_1300/aptc/1127_s1.jpg
+s2.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_1300/aptc/1127_s2.jpg
+s3.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_1300/aptc/1127_s3.jpg
+s4.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_1300/aptc/1126_mesa_bg.jpg
+s5.jpg https://res.cloudinary.com/qumj87vs/image/upload/w_1300/aptc/1126_capa_bg2.jpg
